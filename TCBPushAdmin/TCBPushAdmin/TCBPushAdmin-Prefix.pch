@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TCBPushAdmin' target in the 'TCBPushAdmin' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
