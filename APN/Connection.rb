@@ -1,4 +1,4 @@
-require 'OpenSSL'
+require 'openssl'
 require 'socket'
 
 module APN

@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -r openssl -rubygems
+#!/usr/bin/ruby -rrubygems
 
 require 'ReqPath'
 require 'Listener'
