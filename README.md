@@ -5,6 +5,17 @@ This is a light-weight Ruby-based Apple Push Notifications Provider. When run, `
 
 One should place their private key and/or certificate *pem* file in resources/, and title it `cert.pem`. This will allow *PushProvider* to connect to Apple's APNS over an encrypted, SSL connection.
 
+PushAdmin
+=========
+
+This is a simple, command-line interface for connecting to localhost as a push administrator. The main file, `remote.rb`, will display a prompt. The supported commands are currently `list` and `send`. The `send` command takes two arguments. The first should be the hex device ID, the second a message. If the message contains spaces, quotations should be used:
+
+    $ ruby remote.rb
+    > list
+    device IDs here
+    > send devID "hello, world!"
+    > quit
+
 TCBPushAdmin
 ============
 
